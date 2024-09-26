@@ -1,0 +1,165 @@
+/*Importing Text*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/*Making margin and padding zero*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header Styling*/
+
+nav{
+    height: 55px;
+    background-color: rgb(201, 144, 1);
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 35px;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+.logo:hover{
+    text-decoration: none;
+    font-size: 35px;
+    margin: 10px;
+    margin-right: 40px;
+}
+
+nav input{
+    margin: 10px;
+    margin-top: 16px;
+    margin-left: 190px;
+    height: 4vh;
+    width: 50vh;
+    border: none;
+    border-radius: 5px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.log{
+    margin: 25px;
+    margin-top: 30px;
+    margin-left: 10vh;
+}
+/*Main Body Styling*/
+main{
+    height: 619px;
+    background-color: rgb(244, 199, 75);
+   display: flex;
+}
+
+aside{
+    float: right;
+    margin: 20px;
+    height: 470px;
+    width: 250px;
+    background-color: darkgoldenrod;
+    padding: 50px;
+    
+}
+
+aside h1{
+    font-size: x-large;
+    text-decoration: solid;
+    color: antiquewhite;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    font-size: x-large;
+    margin: 10px;
+    color: antiquewhite;
+    
+}
+
+.left{
+    float: left;
+    margin: 20px;
+    height: 520px;
+    width: 150px;
+    background-color: darkgoldenrod;
+    padding: 25px;
+    
+}
+
+.middle{
+    width: 150vh;
+    background-color: rgba(145, 99, 0, 0.699);
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.middle h1{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.topic{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.topic:hover{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+img{
+    height: 200px;
+    margin: 10px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  
+}
+/*Footer Styling*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 144, 1);
+    height: 55px;
+    color: white;
+}
